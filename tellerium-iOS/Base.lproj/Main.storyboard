@@ -122,11 +122,12 @@
                         <outlet property="emailTextField" destination="ssJ-P3-xz6" id="Vf7-fS-Npd"/>
                         <outlet property="passwordTextField" destination="ygo-iI-jWy" id="kVy-NT-jFw"/>
                         <outlet property="signInButton" destination="Q4o-lx-CFQ" id="mew-e1-uls"/>
+                        <segue destination="ch1-bA-Elz" kind="show" identifier="LoginIdentifier" id="Kh5-HU-kLc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="127"/>
+            <point key="canvasLocation" x="51" y="-378"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="NjJ-Fl-sDG">
@@ -234,28 +235,31 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1lT-p5-mkE"/>
                     </view>
+                    <connections>
+                        <segue destination="ch1-bA-Elz" kind="show" identifier="RegisterIdentifier" id="eVr-UN-IZf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xYc-AL-4vH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="957" y="127"/>
+            <point key="canvasLocation" x="1036" y="-398"/>
         </scene>
         <!--Farmers View Controller-->
         <scene sceneID="Vhg-Lj-euQ">
             <objects>
                 <viewController id="ch1-bA-Elz" customClass="FarmersViewController" customModule="tellerium_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IQ0-6v-md8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="5hg-oq-SjZ">
-                                <rect key="frame" x="24" y="76" width="366" height="50"/>
+                                <rect key="frame" x="24" y="32" width="366" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="VQ0-Ff-zW5"/>
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="drT-fo-AT8">
-                                <rect key="frame" x="24" y="150" width="366" height="712"/>
+                                <rect key="frame" x="24" y="106" width="366" height="702"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                         </subviews>
@@ -271,13 +275,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vym-lC-nTZ"/>
                     </view>
+                    <navigationItem key="navigationItem" id="xXY-5G-i6L"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V2Y-Fy-ZtD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1814" y="127"/>
+            <point key="canvasLocation" x="572" y="377"/>
         </scene>
     </scenes>
     <resources>
         <image name="appstore" width="1024" height="1024"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Kh5-HU-kLc"/>
+    </inferredMetricsTieBreakers>
 </document>
