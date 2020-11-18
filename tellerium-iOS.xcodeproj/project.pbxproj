@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE5EC42D2564E27600F73F55 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EC42C2564E27600F73F55 /* RegisterViewController.swift */; };
 		CE5EC42F2564E2FD00F73F55 /* FarmersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EC42E2564E2FD00F73F55 /* FarmersViewController.swift */; };
+		CE5EC4312564E9A000F73F55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC4302564E9A000F73F55 /* GoogleService-Info.plist */; };
 		CEC6CF6725592C92001E4C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF6625592C92001E4C0D /* AppDelegate.swift */; };
 		CEC6CF6925592C92001E4C0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF6825592C92001E4C0D /* SceneDelegate.swift */; };
 		CEC6CF6B25592C92001E4C0D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF6A25592C92001E4C0D /* LoginViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		CE5EC42C2564E27600F73F55 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CE5EC42E2564E2FD00F73F55 /* FarmersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersViewController.swift; sourceTree = "<group>"; };
+		CE5EC4302564E9A000F73F55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CEC6CF6325592C92001E4C0D /* tellerium-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tellerium-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC6CF6625592C92001E4C0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC6CF6825592C92001E4C0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				CEC6CF6F25592C93001E4C0D /* Assets.xcassets */,
 				CEC6CF7125592C93001E4C0D /* LaunchScreen.storyboard */,
 				CEC6CF7425592C93001E4C0D /* Info.plist */,
+				CE5EC4302564E9A000F73F55 /* GoogleService-Info.plist */,
 				CEC6CF7C255A34AB001E4C0D /* Utility.swift */,
 			);
 			path = "tellerium-iOS";
@@ -155,6 +158,7 @@
 			files = (
 				CEC6CF7325592C93001E4C0D /* LaunchScreen.storyboard in Resources */,
 				CEC6CF7025592C93001E4C0D /* Assets.xcassets in Resources */,
+				CE5EC4312564E9A000F73F55 /* GoogleService-Info.plist in Resources */,
 				CEC6CF6E25592C92001E4C0D /* Main.storyboard in Resources */,
 				CEC6CF7B25596088001E4C0D /* fonts in Resources */,
 			);
