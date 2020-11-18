@@ -128,10 +128,10 @@
             </objects>
             <point key="canvasLocation" x="139" y="127"/>
         </scene>
-        <!--View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="NjJ-Fl-sDG">
             <objects>
-                <viewController id="uo5-QR-Li7" sceneMemberID="viewController">
+                <viewController id="uo5-QR-Li7" customClass="RegisterViewController" customModule="tellerium_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5D6-4c-zaa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
