@@ -3,27 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54E635C3F5E674AD3B70FA42 /* Pods_tellerium_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67D2C85B81C4AF6A8481868 /* Pods_tellerium_iOS.framework */; };
 		CE5EC42D2564E27600F73F55 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EC42C2564E27600F73F55 /* RegisterViewController.swift */; };
 		CE5EC42F2564E2FD00F73F55 /* FarmersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EC42E2564E2FD00F73F55 /* FarmersViewController.swift */; };
 		CE5EC4312564E9A000F73F55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC4302564E9A000F73F55 /* GoogleService-Info.plist */; };
+		CE5EC4352564FBE700F73F55 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC4322564FBE600F73F55 /* Podfile.lock */; };
+		CE5EC4362564FBE700F73F55 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC4332564FBE600F73F55 /* README.md */; };
+		CE5EC4372564FBE700F73F55 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC4342564FBE700F73F55 /* Podfile */; };
+		CE5EC4412565585800F73F55 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC4402565585800F73F55 /* Lato-Light.ttf */; };
+		CE5EC4452565589D00F73F55 /* source_sans_pro_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC4442565589D00F73F55 /* source_sans_pro_light.ttf */; };
+		CE5EC447256558A200F73F55 /* source_sans_pro_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC446256558A200F73F55 /* source_sans_pro_regular.ttf */; };
+		CE5EC449256558A700F73F55 /* source_sans_pro_semi_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC448256558A700F73F55 /* source_sans_pro_semi_bold.ttf */; };
+		CE5EC44B256558AC00F73F55 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC44A256558AC00F73F55 /* Ubuntu-Medium.ttf */; };
+		CE5EC44E25655AF100F73F55 /* source_sans_pro_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC44D25655AD200F73F55 /* source_sans_pro_bold.ttf */; };
 		CEC6CF6725592C92001E4C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF6625592C92001E4C0D /* AppDelegate.swift */; };
 		CEC6CF6925592C92001E4C0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF6825592C92001E4C0D /* SceneDelegate.swift */; };
 		CEC6CF6B25592C92001E4C0D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF6A25592C92001E4C0D /* LoginViewController.swift */; };
 		CEC6CF6E25592C92001E4C0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC6CF6C25592C92001E4C0D /* Main.storyboard */; };
 		CEC6CF7025592C93001E4C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC6CF6F25592C93001E4C0D /* Assets.xcassets */; };
 		CEC6CF7325592C93001E4C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC6CF7125592C93001E4C0D /* LaunchScreen.storyboard */; };
-		CEC6CF7B25596088001E4C0D /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = CEC6CF7A25596088001E4C0D /* fonts */; };
 		CEC6CF7D255A34AB001E4C0D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF7C255A34AB001E4C0D /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F1C68AB77711D9529B8D2E0 /* Pods-tellerium-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tellerium-iOS.release.xcconfig"; path = "Target Support Files/Pods-tellerium-iOS/Pods-tellerium-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9388952A2535D69A623235E7 /* Pods-tellerium-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tellerium-iOS.debug.xcconfig"; path = "Target Support Files/Pods-tellerium-iOS/Pods-tellerium-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A67D2C85B81C4AF6A8481868 /* Pods_tellerium_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tellerium_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5EC42C2564E27600F73F55 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CE5EC42E2564E2FD00F73F55 /* FarmersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersViewController.swift; sourceTree = "<group>"; };
 		CE5EC4302564E9A000F73F55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE5EC4322564FBE600F73F55 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		CE5EC4332564FBE600F73F55 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE5EC4342564FBE700F73F55 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CE5EC4402565585800F73F55 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		CE5EC4442565589D00F73F55 /* source_sans_pro_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = source_sans_pro_light.ttf; sourceTree = "<group>"; };
+		CE5EC446256558A200F73F55 /* source_sans_pro_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = source_sans_pro_regular.ttf; sourceTree = "<group>"; };
+		CE5EC448256558A700F73F55 /* source_sans_pro_semi_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = source_sans_pro_semi_bold.ttf; sourceTree = "<group>"; };
+		CE5EC44A256558AC00F73F55 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		CE5EC44D25655AD200F73F55 /* source_sans_pro_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = source_sans_pro_bold.ttf; sourceTree = "<group>"; };
 		CEC6CF6325592C92001E4C0D /* tellerium-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tellerium-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC6CF6625592C92001E4C0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC6CF6825592C92001E4C0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +62,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E635C3F5E674AD3B70FA42 /* Pods_tellerium_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15DB1E591B3C441B6230A288 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A67D2C85B81C4AF6A8481868 /* Pods_tellerium_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87B7E1360F99A9654722E878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9388952A2535D69A623235E7 /* Pods-tellerium-iOS.debug.xcconfig */,
+				0F1C68AB77711D9529B8D2E0 /* Pods-tellerium-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE5EC42B2564E1D000F73F55 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -57,11 +96,24 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		CE5EC43825653F0500F73F55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6CF6C25592C92001E4C0D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CEC6CF5A25592C92001E4C0D = {
 			isa = PBXGroup;
 			children = (
+				CE5EC4342564FBE700F73F55 /* Podfile */,
+				CE5EC4322564FBE600F73F55 /* Podfile.lock */,
+				CE5EC4332564FBE600F73F55 /* README.md */,
 				CEC6CF6525592C92001E4C0D /* tellerium-iOS */,
 				CEC6CF6425592C92001E4C0D /* Products */,
+				87B7E1360F99A9654722E878 /* Pods */,
+				15DB1E591B3C441B6230A288 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,7 +132,7 @@
 				CEC6CF6625592C92001E4C0D /* AppDelegate.swift */,
 				CEC6CF6825592C92001E4C0D /* SceneDelegate.swift */,
 				CE5EC42B2564E1D000F73F55 /* Controllers */,
-				CEC6CF6C25592C92001E4C0D /* Main.storyboard */,
+				CE5EC43825653F0500F73F55 /* View */,
 				CEC6CF6F25592C93001E4C0D /* Assets.xcassets */,
 				CEC6CF7125592C93001E4C0D /* LaunchScreen.storyboard */,
 				CEC6CF7425592C93001E4C0D /* Info.plist */,
@@ -93,6 +145,12 @@
 		CEC6CF7E255A829A001E4C0D /* res */ = {
 			isa = PBXGroup;
 			children = (
+				CE5EC4402565585800F73F55 /* Lato-Light.ttf */,
+				CE5EC4442565589D00F73F55 /* source_sans_pro_light.ttf */,
+				CE5EC446256558A200F73F55 /* source_sans_pro_regular.ttf */,
+				CE5EC448256558A700F73F55 /* source_sans_pro_semi_bold.ttf */,
+				CE5EC44D25655AD200F73F55 /* source_sans_pro_bold.ttf */,
+				CE5EC44A256558AC00F73F55 /* Ubuntu-Medium.ttf */,
 				CEC6CF7A25596088001E4C0D /* fonts */,
 			);
 			path = res;
@@ -105,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEC6CF7725592C93001E4C0D /* Build configuration list for PBXNativeTarget "tellerium-iOS" */;
 			buildPhases = (
+				EA388609EBCD59D61536960F /* [CP] Check Pods Manifest.lock */,
 				CEC6CF5F25592C92001E4C0D /* Sources */,
 				CEC6CF6025592C92001E4C0D /* Frameworks */,
 				CEC6CF6125592C92001E4C0D /* Resources */,
+				0D00EFEA425D8C6BB31A38D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,15 +216,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5EC4352564FBE700F73F55 /* Podfile.lock in Resources */,
 				CEC6CF7325592C93001E4C0D /* LaunchScreen.storyboard in Resources */,
+				CE5EC4372564FBE700F73F55 /* Podfile in Resources */,
 				CEC6CF7025592C93001E4C0D /* Assets.xcassets in Resources */,
+				CE5EC4362564FBE700F73F55 /* README.md in Resources */,
 				CE5EC4312564E9A000F73F55 /* GoogleService-Info.plist in Resources */,
 				CEC6CF6E25592C92001E4C0D /* Main.storyboard in Resources */,
-				CEC6CF7B25596088001E4C0D /* fonts in Resources */,
+				CE5EC4452565589D00F73F55 /* source_sans_pro_light.ttf in Resources */,
+				CE5EC4412565585800F73F55 /* Lato-Light.ttf in Resources */,
+				CE5EC44E25655AF100F73F55 /* source_sans_pro_bold.ttf in Resources */,
+				CE5EC449256558A700F73F55 /* source_sans_pro_semi_bold.ttf in Resources */,
+				CE5EC447256558A200F73F55 /* source_sans_pro_regular.ttf in Resources */,
+				CE5EC44B256558AC00F73F55 /* Ubuntu-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D00EFEA425D8C6BB31A38D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tellerium-iOS/Pods-tellerium-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tellerium-iOS/Pods-tellerium-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tellerium-iOS/Pods-tellerium-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA388609EBCD59D61536960F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tellerium-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CEC6CF5F25592C92001E4C0D /* Sources */ = {
@@ -318,6 +428,7 @@
 		};
 		CEC6CF7825592C93001E4C0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9388952A2535D69A623235E7 /* Pods-tellerium-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -336,6 +447,7 @@
 		};
 		CEC6CF7925592C93001E4C0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1C68AB77711D9529B8D2E0 /* Pods-tellerium-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

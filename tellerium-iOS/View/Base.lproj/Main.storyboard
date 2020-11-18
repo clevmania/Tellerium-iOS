@@ -119,6 +119,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="dontHaveAnAccountLabel" destination="Ptj-yB-mPt" id="jc8-S7-Q9S"/>
                         <outlet property="emailTextField" destination="ssJ-P3-xz6" id="Vf7-fS-Npd"/>
                         <outlet property="passwordTextField" destination="ygo-iI-jWy" id="kVy-NT-jFw"/>
                         <outlet property="signInButton" destination="Q4o-lx-CFQ" id="mew-e1-uls"/>
