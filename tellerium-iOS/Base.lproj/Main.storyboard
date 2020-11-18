@@ -239,10 +239,10 @@
             </objects>
             <point key="canvasLocation" x="957" y="127"/>
         </scene>
-        <!--View Controller-->
+        <!--Farmers View Controller-->
         <scene sceneID="Vhg-Lj-euQ">
             <objects>
-                <viewController id="ch1-bA-Elz" sceneMemberID="viewController">
+                <viewController id="ch1-bA-Elz" customClass="FarmersViewController" customModule="tellerium_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IQ0-6v-md8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -274,7 +274,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V2Y-Fy-ZtD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1879" y="122"/>
+            <point key="canvasLocation" x="1814" y="127"/>
         </scene>
     </scenes>
     <resources>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE5EC42D2564E27600F73F55 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EC42C2564E27600F73F55 /* RegisterViewController.swift */; };
+		CE5EC42F2564E2FD00F73F55 /* FarmersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EC42E2564E2FD00F73F55 /* FarmersViewController.swift */; };
 		CEC6CF6725592C92001E4C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF6625592C92001E4C0D /* AppDelegate.swift */; };
 		CEC6CF6925592C92001E4C0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF6825592C92001E4C0D /* SceneDelegate.swift */; };
 		CEC6CF6B25592C92001E4C0D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF6A25592C92001E4C0D /* LoginViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		CE5EC42C2564E27600F73F55 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CE5EC42E2564E2FD00F73F55 /* FarmersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersViewController.swift; sourceTree = "<group>"; };
 		CEC6CF6325592C92001E4C0D /* tellerium-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tellerium-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC6CF6625592C92001E4C0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC6CF6825592C92001E4C0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			children = (
 				CEC6CF6A25592C92001E4C0D /* LoginViewController.swift */,
 				CE5EC42C2564E27600F73F55 /* RegisterViewController.swift */,
+				CE5EC42E2564E2FD00F73F55 /* FarmersViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC6CF6B25592C92001E4C0D /* LoginViewController.swift in Sources */,
+				CE5EC42F2564E2FD00F73F55 /* FarmersViewController.swift in Sources */,
 				CE5EC42D2564E27600F73F55 /* RegisterViewController.swift in Sources */,
 				CEC6CF7D255A34AB001E4C0D /* Utility.swift in Sources */,
 				CEC6CF6725592C92001E4C0D /* AppDelegate.swift in Sources */,
