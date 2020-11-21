@@ -90,37 +90,43 @@
                                     <action selector="signInPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rq1-Ma-imZ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ptj-yB-mPt">
-                                <rect key="frame" x="24" y="649" width="366" height="18"/>
-                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="14"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ns-nm-WP4">
+                                <rect key="frame" x="24" y="633" width="366" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Qdb-Dr-72u"/>
+                                </constraints>
+                                <state key="normal" title="Don't have an account?">
+                                    <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uo5-QR-Li7" kind="show" id="P4u-zp-f4y"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="b8b-nw-38n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1cH-0o-aue"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Q4o-lx-CFQ" secondAttribute="trailing" constant="24" id="8Bl-OS-t2i"/>
+                            <constraint firstItem="6ns-nm-WP4" firstAttribute="top" secondItem="Q4o-lx-CFQ" secondAttribute="bottom" constant="24" id="JCy-de-Htd"/>
                             <constraint firstItem="FzW-PD-07e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KLV-ic-uRt"/>
                             <constraint firstItem="k0k-Bg-tgM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mes-mK-fej"/>
-                            <constraint firstItem="Ptj-yB-mPt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="QVS-QZ-ctk"/>
                             <constraint firstItem="k0k-Bg-tgM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SQd-Eu-fU2"/>
                             <constraint firstItem="OUp-WA-gpS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="aIg-Am-lHG"/>
                             <constraint firstItem="k0k-Bg-tgM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="cEi-Lp-ad2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6ns-nm-WP4" secondAttribute="trailing" constant="24" id="cOz-Nl-4sf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k0k-Bg-tgM" secondAttribute="trailing" constant="24" id="eg6-Bx-GzZ"/>
                             <constraint firstItem="b8b-nw-38n" firstAttribute="top" secondItem="OUp-WA-gpS" secondAttribute="bottom" constant="20" id="g2d-Cl-DMA"/>
                             <constraint firstItem="OUp-WA-gpS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h6Z-iJ-yhY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ptj-yB-mPt" secondAttribute="trailing" constant="24" id="j2Y-jE-dN6"/>
-                            <constraint firstItem="Ptj-yB-mPt" firstAttribute="top" secondItem="Q4o-lx-CFQ" secondAttribute="bottom" constant="40" id="mzA-zA-cD4"/>
                             <constraint firstItem="Q4o-lx-CFQ" firstAttribute="top" secondItem="k0k-Bg-tgM" secondAttribute="bottom" constant="32" id="nab-y9-9kb"/>
                             <constraint firstItem="Q4o-lx-CFQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="qT7-IE-TTr"/>
+                            <constraint firstItem="6ns-nm-WP4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="rGL-o3-D2P"/>
                             <constraint firstItem="FzW-PD-07e" firstAttribute="top" secondItem="b8b-nw-38n" secondAttribute="bottom" constant="10" id="szj-kq-Rm1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="dontHaveAnAccountLabel" destination="Ptj-yB-mPt" id="jc8-S7-Q9S"/>
                         <outlet property="emailTextField" destination="ssJ-P3-xz6" id="Vf7-fS-Npd"/>
+                        <outlet property="noAccountButton" destination="6ns-nm-WP4" id="Wbf-Ob-teg"/>
                         <outlet property="passwordTextField" destination="ygo-iI-jWy" id="kVy-NT-jFw"/>
                         <outlet property="signInButton" destination="Q4o-lx-CFQ" id="mew-e1-uls"/>
                         <segue destination="ch1-bA-Elz" kind="show" identifier="LoginIdentifier" id="Kh5-HU-kLc"/>
@@ -135,11 +141,11 @@
             <objects>
                 <viewController id="uo5-QR-Li7" customClass="RegisterViewController" customModule="tellerium_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5D6-4c-zaa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ffy-pP-LrJ" userLabel="Header View">
-                                <rect key="frame" x="117" y="100" width="180" height="200"/>
+                                <rect key="frame" x="117" y="56" width="180" height="200"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appstore" translatesAutoresizingMaskIntoConstraints="NO" id="82Q-Rc-rPO">
                                         <rect key="frame" x="0.0" y="0.0" width="180" height="120"/>
@@ -163,7 +169,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="nIb-fT-iBX" userLabel="Register Form View">
-                                <rect key="frame" x="24" y="348" width="366" height="314"/>
+                                <rect key="frame" x="24" y="304" width="366" height="314"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vzP-lu-DP1">
                                         <rect key="frame" x="0.0" y="0.0" width="366" height="50"/>
@@ -208,7 +214,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTV-cl-YU5">
-                                <rect key="frame" x="24" y="686" width="366" height="50"/>
+                                <rect key="frame" x="24" y="642" width="366" height="50"/>
                                 <color key="backgroundColor" red="0.015686274510000001" green="0.40000000000000002" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="dNA-fU-3Wx"/>
@@ -236,6 +242,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1lT-p5-mkE"/>
                     </view>
+                    <navigationItem key="navigationItem" id="tOj-Ra-lCm"/>
                     <connections>
                         <segue destination="ch1-bA-Elz" kind="show" identifier="RegisterIdentifier" id="eVr-UN-IZf"/>
                     </connections>

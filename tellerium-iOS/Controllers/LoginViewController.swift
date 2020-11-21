@@ -12,11 +12,10 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var signInButton: UIButton!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var dontHaveAnAccountLabel: UILabel!
+    @IBOutlet weak var noAccountButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         Utility.styleTextField(emailTextField)
         Utility.styleTextField(passwordTextField)
@@ -30,12 +29,12 @@ class LoginViewController: UIViewController {
     
     func styleNoAccountLabel(){
         if let font = UIFont(name: "SourceSansPro-Regular", size: 14), let boldFont = UIFont.init(name: "SourceSansPro-SemiBold", size: 14) {
-           let attributedNoAccountText = NSMutableAttributedString(string: "Don't have an account? ", attributes: [NSAttributedString.Key.font : font])
+            let attributedNoAccountText = NSMutableAttributedString(string: "Don't have an account? ", attributes: [NSAttributedString.Key.font : font, NSAttributedString.Key.foregroundColor : UIColor(red: 0.129, green: 0.122, blue: 0.122, alpha: 1)])
 
-            let attributedSignUpText = NSMutableAttributedString(string: "Sign Up", attributes: [NSAttributedString.Key.font : boldFont])
+            let attributedSignUpText = NSMutableAttributedString(string: "Sign Up", attributes: [NSAttributedString.Key.font : boldFont, NSAttributedString.Key.foregroundColor : UIColor(red: 0.129, green: 0.122, blue: 0.122, alpha: 1)])
 
             attributedNoAccountText.append(attributedSignUpText)
-            dontHaveAnAccountLabel.attributedText = attributedNoAccountText
+            noAccountButton.setAttributedTitle(attributedNoAccountText, for: .normal)
         }
         
         
