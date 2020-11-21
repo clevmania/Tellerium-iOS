@@ -224,6 +224,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="registerUserButton:" destination="uo5-QR-Li7" eventType="touchUpInside" id="9Te-lZ-KPG"/>
                                     <action selector="signInButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fVf-Bh-Rwa"/>
                                     <action selector="signInPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eO2-hP-V0v"/>
                                 </connections>
@@ -244,6 +245,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="tOj-Ra-lCm"/>
                     <connections>
+                        <outlet property="etEmailTextField" destination="ejF-cc-tDs" id="dV2-aM-Zff"/>
+                        <outlet property="etFirstNameTextField" destination="vzP-lu-DP1" id="5lN-bp-t5H"/>
+                        <outlet property="etLastNameTextField" destination="EdI-G7-5jQ" id="ocv-ai-pV6"/>
+                        <outlet property="etMobileTextField" destination="SLk-Uc-rYR" id="OLl-nk-bGI"/>
+                        <outlet property="etPasswordTextField" destination="ejF-cc-tDs" id="Z8X-Ku-erN"/>
                         <segue destination="ch1-bA-Elz" kind="show" identifier="RegisterIdentifier" id="eVr-UN-IZf"/>
                     </connections>
                 </viewController>
@@ -294,6 +300,6 @@
         <image name="appstore" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Kh5-HU-kLc"/>
+        <segue reference="eVr-UN-IZf"/>
     </inferredMetricsTieBreakers>
 </document>
