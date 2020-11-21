@@ -20,6 +20,7 @@
 		CE5EC449256558A700F73F55 /* source_sans_pro_semi_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC448256558A700F73F55 /* source_sans_pro_semi_bold.ttf */; };
 		CE5EC44B256558AC00F73F55 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC44A256558AC00F73F55 /* Ubuntu-Medium.ttf */; };
 		CE5EC44E25655AF100F73F55 /* source_sans_pro_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5EC44D25655AD200F73F55 /* source_sans_pro_bold.ttf */; };
+		CE5EC4502569B5D100F73F55 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EC44F2569B5D100F73F55 /* Constants.swift */; };
 		CEC6CF6725592C92001E4C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF6625592C92001E4C0D /* AppDelegate.swift */; };
 		CEC6CF6925592C92001E4C0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF6825592C92001E4C0D /* SceneDelegate.swift */; };
 		CEC6CF6B25592C92001E4C0D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF6A25592C92001E4C0D /* LoginViewController.swift */; };
@@ -45,6 +46,7 @@
 		CE5EC448256558A700F73F55 /* source_sans_pro_semi_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = source_sans_pro_semi_bold.ttf; sourceTree = "<group>"; };
 		CE5EC44A256558AC00F73F55 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
 		CE5EC44D25655AD200F73F55 /* source_sans_pro_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = source_sans_pro_bold.ttf; sourceTree = "<group>"; };
+		CE5EC44F2569B5D100F73F55 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CEC6CF6325592C92001E4C0D /* tellerium-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tellerium-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC6CF6625592C92001E4C0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC6CF6825592C92001E4C0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				CEC6CF7425592C93001E4C0D /* Info.plist */,
 				CE5EC4302564E9A000F73F55 /* GoogleService-Info.plist */,
 				CEC6CF7C255A34AB001E4C0D /* Utility.swift */,
+				CE5EC44F2569B5D100F73F55 /* Constants.swift */,
 			);
 			path = "tellerium-iOS";
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				CE5EC42F2564E2FD00F73F55 /* FarmersViewController.swift in Sources */,
 				CE5EC42D2564E27600F73F55 /* RegisterViewController.swift in Sources */,
 				CEC6CF7D255A34AB001E4C0D /* Utility.swift in Sources */,
+				CE5EC4502569B5D100F73F55 /* Constants.swift in Sources */,
 				CEC6CF6725592C92001E4C0D /* AppDelegate.swift in Sources */,
 				CEC6CF6925592C92001E4C0D /* SceneDelegate.swift in Sources */,
 			);
